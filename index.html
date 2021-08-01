@@ -15,9 +15,9 @@
             <button id="hp_btn" onclick="render('hp')">mpg vs horsepower</button>
             <button id="disp_btn" onclick="render('disp')">mpg vs Displacement</button>
             <button id="wt_btn" onclick="render('wt')">mpg vs Weight</button>
-          <h1>
+          <h2>
               Narrative Visualization - mtcars data visualizations             
-          </h1>
+          </h2>
           <h3>
               Please click buttons to see scatterplot of "mpg vs horsepower/displacement/weight". In the scatterplot view, you can move your mouse near the "dot" to see the model name.
           </h3>
@@ -71,8 +71,8 @@
 
 	// margins
 	var margin = {top: 50, right: 20, bottom: 30, left: 80},
-	    width = 800 - margin.left - margin.right,
-	    height = 500 - margin.top - margin.bottom;
+	    width = 900 - margin.left - margin.right,
+	    height = 450 - margin.top - margin.bottom;
 
 	// ranges
 	var x = d3.scale.linear().range([0, width]);
